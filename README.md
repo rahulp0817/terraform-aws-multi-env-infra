@@ -63,7 +63,11 @@ Each environment provisions the following AWS resources:
     ```bash
     terraform apply
     ```
-5. **Destroy the Infrastructure** (when needed):
+5. **Check the State List**:
+    ```bash
+    terraform state list
+    ```
+6. **Destroy the Infrastructure** (when needed):
     ```bash
     terraform destroy
     ```
