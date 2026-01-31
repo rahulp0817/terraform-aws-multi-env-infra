@@ -1,5 +1,7 @@
 terra-ec2.pub
 .terraform.lock.hcl
 .terraform.tfstate.lock.info
+terraform.tfstate
+terraform.tfstate.backup
 terraform-keypair.pem
 .terraform/providers/registry.terraform.io/hashicorp/aws/6.30.0/windows_amd64/terraform-provider-aws_v6.30.0_x5.exe
