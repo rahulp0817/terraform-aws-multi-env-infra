@@ -49,16 +49,15 @@ Each environment provisions the following AWS resources:
 ## Usage Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/rahulp0817/terraform-aws-multi-env-infra.git
    ```
 2. **Initialize Terraform**:
    ```bash
     terraform init
     ```
-3. **Select the Environment**:
+3. **Plan Terraform**:
     ```bash
-    export TF_VAR_environment=<dev|stag|prod>
+    terraform plan
     ```
 4. **Apply the Configuration**:
     ```bash
